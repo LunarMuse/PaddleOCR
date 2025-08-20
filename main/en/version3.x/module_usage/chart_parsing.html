@@ -12,28 +12,28 @@
         <meta name="author" content="PaddleOCR PMC">
       
       
-        <link rel="canonical" href="https://paddlepaddle.github.io/PaddleOCR/main/en/version3.x/algorithm/PP-StructureV3/PP-StructureV3.html">
+        <link rel="canonical" href="https://paddlepaddle.github.io/PaddleOCR/main/en/version3.x/module_usage/chart_parsing.html">
       
       
-        <link rel="prev" href="../../pipeline_usage/PP-StructureV3.html">
+        <link rel="prev" href="text_recognition.html">
       
       
-        <link rel="next" href="../../pipeline_usage/PP-ChatOCRv4.html">
+        <link rel="next" href="../pipeline_usage/pipeline_overview.html">
       
       
-      <link rel="icon" href="../../../../version2.x/static/images/logo.jpg">
+      <link rel="icon" href="../../../version2.x/static/images/logo.jpg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.17">
     
     
       
-        <title>PP-StructureV3 Introduction - PaddleOCR Documentation</title>
+        <title>Chart Parsing Module - PaddleOCR Documentation</title>
       
     
     
-      <link rel="stylesheet" href="../../../../assets/stylesheets/main.7e37652d.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.7e37652d.min.css">
       
         
-        <link rel="stylesheet" href="../../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
       
       
   
@@ -120,7 +120,7 @@
     
       <link rel="stylesheet" href="https://unpkg.com/katex@0/dist/katex.min.css">
     
-    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -146,7 +146,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#introduction-to-pp-structurev3" class="md-skip">
+        <a href="#chart-parsing-module-tutorial" class="md-skip">
           Skip to content
         </a>
       
@@ -161,12 +161,12 @@
             <div class="md-banner__inner md-grid md-typeset">
               
 You're not viewing the latest version.
-<a href="../../../../..">
+<a href="../../../..">
     <strong>Click here to go to latest.</strong>
 </a>
 
             </div>
-            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../../../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),base=new URL("../../.."),outdated=__md_get("__outdated",sessionStorage,base);!0===outdated&&el&&(el.hidden=!1)</script>
           </aside>
         
       </div>
@@ -178,9 +178,9 @@ You're not viewing the latest version.
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../index.html" title="PaddleOCR Documentation" class="md-header__button md-logo" aria-label="PaddleOCR Documentation" data-md-component="logo">
+    <a href="../../index.html" title="PaddleOCR Documentation" class="md-header__button md-logo" aria-label="PaddleOCR Documentation" data-md-component="logo">
       
-  <img src="../../../../version2.x/static/images/logo.jpg" alt="logo">
+  <img src="../../../version2.x/static/images/logo.jpg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -197,7 +197,7 @@ You're not viewing the latest version.
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              PP-StructureV3 Introduction
+              Chart Parsing Module
             
           </span>
         </div>
@@ -244,13 +244,13 @@ You're not viewing the latest version.
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="../../../../version3.x/algorithm/PP-StructureV3/PP-StructureV3.html" hreflang="zh" class="md-select__link">
+            <a href="../../../version3.x/module_usage/chart_parsing.html" hreflang="zh" class="md-select__link">
               简体中文
             </a>
           </li>
         
           <li class="md-select__item">
-            <a href="PP-StructureV3.html" hreflang="en" class="md-select__link">
+            <a href="chart_parsing.html" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -335,7 +335,7 @@ You're not viewing the latest version.
   
   
     <li class="md-tabs__item">
-      <a href="../../../index.html" class="md-tabs__link">
+      <a href="../../index.html" class="md-tabs__link">
         
   
   
@@ -354,7 +354,7 @@ You're not viewing the latest version.
   
   
     <li class="md-tabs__item">
-      <a href="../../../quick_start.html" class="md-tabs__link">
+      <a href="../../quick_start.html" class="md-tabs__link">
         
   
   
@@ -375,7 +375,7 @@ You're not viewing the latest version.
     
     
       <li class="md-tabs__item">
-        <a href="../../pipeline_usage/OCR.html" class="md-tabs__link">
+        <a href="../pipeline_usage/OCR.html" class="md-tabs__link">
           
   
   
@@ -393,13 +393,11 @@ You're not viewing the latest version.
   
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../pipeline_usage/PP-StructureV3.html" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../pipeline_usage/PP-StructureV3.html" class="md-tabs__link">
           
   
   
@@ -421,7 +419,7 @@ You're not viewing the latest version.
     
     
       <li class="md-tabs__item">
-        <a href="../../pipeline_usage/PP-ChatOCRv4.html" class="md-tabs__link">
+        <a href="../pipeline_usage/PP-ChatOCRv4.html" class="md-tabs__link">
           
   
   
@@ -443,7 +441,7 @@ You're not viewing the latest version.
     
     
       <li class="md-tabs__item">
-        <a href="../../deployment/high_performance_inference.html" class="md-tabs__link">
+        <a href="../deployment/high_performance_inference.html" class="md-tabs__link">
           
   
   
@@ -461,11 +459,13 @@ You're not viewing the latest version.
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../module_usage/module_overview.html" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="module_overview.html" class="md-tabs__link">
           
   
   
@@ -487,7 +487,7 @@ You're not viewing the latest version.
     
     
       <li class="md-tabs__item">
-        <a href="../../pipeline_usage/pipeline_overview.html" class="md-tabs__link">
+        <a href="../pipeline_usage/pipeline_overview.html" class="md-tabs__link">
           
   
   
@@ -509,7 +509,7 @@ You're not viewing the latest version.
     
     
       <li class="md-tabs__item">
-        <a href="../../other_devices_support/multi_devices_use_guide.html" class="md-tabs__link">
+        <a href="../other_devices_support/multi_devices_use_guide.html" class="md-tabs__link">
           
   
   
@@ -531,7 +531,7 @@ You're not viewing the latest version.
     
     
       <li class="md-tabs__item">
-        <a href="../../paddleocr_and_paddlex.html" class="md-tabs__link">
+        <a href="../paddleocr_and_paddlex.html" class="md-tabs__link">
           
   
   
@@ -553,7 +553,7 @@ You're not viewing the latest version.
     
     
       <li class="md-tabs__item">
-        <a href="../../paddlex/overview.html" class="md-tabs__link">
+        <a href="../paddlex/overview.html" class="md-tabs__link">
           
   
   
@@ -575,7 +575,7 @@ You're not viewing the latest version.
     
     
       <li class="md-tabs__item">
-        <a href="../../../data_anno_synth/overview.html" class="md-tabs__link">
+        <a href="../../data_anno_synth/overview.html" class="md-tabs__link">
           
   
   
@@ -595,7 +595,7 @@ You're not viewing the latest version.
   
   
     <li class="md-tabs__item">
-      <a href="../../../update/update.html" class="md-tabs__link">
+      <a href="../../update/update.html" class="md-tabs__link">
         
   
   
@@ -616,7 +616,7 @@ You're not viewing the latest version.
     
     
       <li class="md-tabs__item">
-        <a href="../../../version2.x/legacy/index.html" class="md-tabs__link">
+        <a href="../../version2.x/legacy/index.html" class="md-tabs__link">
           
   
   
@@ -636,7 +636,7 @@ You're not viewing the latest version.
   
   
     <li class="md-tabs__item">
-      <a href="../../../FAQ.html" class="md-tabs__link">
+      <a href="../../FAQ.html" class="md-tabs__link">
         
   
   
@@ -657,7 +657,7 @@ You're not viewing the latest version.
     
     
       <li class="md-tabs__item">
-        <a href="../../../community/community_contribution.html" class="md-tabs__link">
+        <a href="../../community/community_contribution.html" class="md-tabs__link">
           
   
   
@@ -699,9 +699,9 @@ You're not viewing the latest version.
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../index.html" title="PaddleOCR Documentation" class="md-nav__button md-logo" aria-label="PaddleOCR Documentation" data-md-component="logo">
+    <a href="../../index.html" title="PaddleOCR Documentation" class="md-nav__button md-logo" aria-label="PaddleOCR Documentation" data-md-component="logo">
       
-  <img src="../../../../version2.x/static/images/logo.jpg" alt="logo">
+  <img src="../../../version2.x/static/images/logo.jpg" alt="logo">
 
     </a>
     PaddleOCR Documentation
@@ -728,7 +728,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../index.html" class="md-nav__link">
+      <a href="../../index.html" class="md-nav__link">
         
   
   
@@ -750,7 +750,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../quick_start.html" class="md-nav__link">
+      <a href="../../quick_start.html" class="md-nav__link">
         
   
   
@@ -823,7 +823,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/OCR.html" class="md-nav__link">
+      <a href="../pipeline_usage/OCR.html" class="md-nav__link">
         
   
   
@@ -846,7 +846,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../PP-OCRv5/PP-OCRv5.html" class="md-nav__link">
+      <a href="../algorithm/PP-OCRv5/PP-OCRv5.html" class="md-nav__link">
         
   
   
@@ -869,7 +869,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../PP-OCRv5/PP-OCRv5_multi_languages.html" class="md-nav__link">
+      <a href="../algorithm/PP-OCRv5/PP-OCRv5_multi_languages.html" class="md-nav__link">
         
   
   
@@ -896,10 +896,8 @@ You're not viewing the latest version.
       
   
   
-    
   
   
-  
     
     
       
@@ -911,20 +909,19 @@ You're not viewing the latest version.
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
   
   
@@ -937,7 +934,7 @@ You're not viewing the latest version.
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             PP-StructureV3
@@ -951,7 +948,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/PP-StructureV3.html" class="md-nav__link">
+      <a href="../pipeline_usage/PP-StructureV3.html" class="md-nav__link">
         
   
   
@@ -971,19 +968,10 @@ You're not viewing the latest version.
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="PP-StructureV3.html" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../algorithm/PP-StructureV3/PP-StructureV3.html" class="md-nav__link">
         
   
   
@@ -994,7 +982,6 @@ You're not viewing the latest version.
   
 
       </a>
-      
     </li>
   
 
@@ -1063,7 +1050,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/PP-ChatOCRv4.html" class="md-nav__link">
+      <a href="../pipeline_usage/PP-ChatOCRv4.html" class="md-nav__link">
         
   
   
@@ -1086,7 +1073,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../PP-ChatOCRv4/PP-ChatOCRv4.html" class="md-nav__link">
+      <a href="../algorithm/PP-ChatOCRv4/PP-ChatOCRv4.html" class="md-nav__link">
         
   
   
@@ -1177,7 +1164,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/high_performance_inference.html" class="md-nav__link">
+      <a href="../deployment/high_performance_inference.html" class="md-nav__link">
         
   
   
@@ -1200,7 +1187,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/obtaining_onnx_models.html" class="md-nav__link">
+      <a href="../deployment/obtaining_onnx_models.html" class="md-nav__link">
         
   
   
@@ -1223,7 +1210,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/on_device_deployment.html" class="md-nav__link">
+      <a href="../deployment/on_device_deployment.html" class="md-nav__link">
         
   
   
@@ -1246,7 +1233,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/serving.html" class="md-nav__link">
+      <a href="../deployment/serving.html" class="md-nav__link">
         
   
   
@@ -1269,7 +1256,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/python_and_cpp_infer.html" class="md-nav__link">
+      <a href="../deployment/python_and_cpp_infer.html" class="md-nav__link">
         
   
   
@@ -1292,7 +1279,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/mcp_server.html" class="md-nav__link">
+      <a href="../deployment/mcp_server.html" class="md-nav__link">
         
   
   
@@ -1315,7 +1302,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../deployment/packaging.html" class="md-nav__link">
+      <a href="../deployment/packaging.html" class="md-nav__link">
         
   
   
@@ -1338,7 +1325,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/instructions/parallel_inference.html" class="md-nav__link">
+      <a href="../pipeline_usage/instructions/parallel_inference.html" class="md-nav__link">
         
   
   
@@ -1365,8 +1352,10 @@ You're not viewing the latest version.
       
   
   
+    
   
   
+  
     
     
       
@@ -1402,19 +1391,20 @@ You're not viewing the latest version.
     
     
       
+        
+        
+      
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
-        
-          
-          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
             
   
   
@@ -1427,7 +1417,7 @@ You're not viewing the latest version.
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             Module List
@@ -1441,7 +1431,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/module_overview.html" class="md-nav__link">
+      <a href="module_overview.html" class="md-nav__link">
         
   
   
@@ -1464,7 +1454,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/doc_img_orientation_classification.html" class="md-nav__link">
+      <a href="doc_img_orientation_classification.html" class="md-nav__link">
         
   
   
@@ -1487,7 +1477,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/doc_vlm.html" class="md-nav__link">
+      <a href="doc_vlm.html" class="md-nav__link">
         
   
   
@@ -1510,7 +1500,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/formula_recognition.html" class="md-nav__link">
+      <a href="formula_recognition.html" class="md-nav__link">
         
   
   
@@ -1533,7 +1523,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/layout_detection.html" class="md-nav__link">
+      <a href="layout_detection.html" class="md-nav__link">
         
   
   
@@ -1556,7 +1546,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/seal_text_detection.html" class="md-nav__link">
+      <a href="seal_text_detection.html" class="md-nav__link">
         
   
   
@@ -1579,7 +1569,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/table_cells_detection.html" class="md-nav__link">
+      <a href="table_cells_detection.html" class="md-nav__link">
         
   
   
@@ -1602,7 +1592,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/table_classification.html" class="md-nav__link">
+      <a href="table_classification.html" class="md-nav__link">
         
   
   
@@ -1625,7 +1615,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/table_structure_recognition.html" class="md-nav__link">
+      <a href="table_structure_recognition.html" class="md-nav__link">
         
   
   
@@ -1648,7 +1638,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/text_detection.html" class="md-nav__link">
+      <a href="text_detection.html" class="md-nav__link">
         
   
   
@@ -1671,7 +1661,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/text_image_unwarping.html" class="md-nav__link">
+      <a href="text_image_unwarping.html" class="md-nav__link">
         
   
   
@@ -1694,7 +1684,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/textline_orientation_classification.html" class="md-nav__link">
+      <a href="textline_orientation_classification.html" class="md-nav__link">
         
   
   
@@ -1717,7 +1707,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../module_usage/text_recognition.html" class="md-nav__link">
+      <a href="text_recognition.html" class="md-nav__link">
         
   
   
@@ -1737,10 +1727,32 @@ You're not viewing the latest version.
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../module_usage/chart_parsing.html" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Chart Parsing Module
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="chart_parsing.html" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1751,6 +1763,71 @@ You're not viewing the latest version.
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-supported-model-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Supported Model List
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-quick-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Quick Start
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-custom-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Custom Development
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. FAQ
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1829,7 +1906,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/pipeline_overview.html" class="md-nav__link">
+      <a href="../pipeline_usage/pipeline_overview.html" class="md-nav__link">
         
   
   
@@ -1852,7 +1929,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/formula_recognition.html" class="md-nav__link">
+      <a href="../pipeline_usage/formula_recognition.html" class="md-nav__link">
         
   
   
@@ -1875,7 +1952,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/doc_preprocessor.html" class="md-nav__link">
+      <a href="../pipeline_usage/doc_preprocessor.html" class="md-nav__link">
         
   
   
@@ -1898,7 +1975,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/doc_understanding.html" class="md-nav__link">
+      <a href="../pipeline_usage/doc_understanding.html" class="md-nav__link">
         
   
   
@@ -1921,7 +1998,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/seal_recognition.html" class="md-nav__link">
+      <a href="../pipeline_usage/seal_recognition.html" class="md-nav__link">
         
   
   
@@ -1944,7 +2021,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/table_recognition_v2.html" class="md-nav__link">
+      <a href="../pipeline_usage/table_recognition_v2.html" class="md-nav__link">
         
   
   
@@ -1967,7 +2044,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../pipeline_usage/PP-DocTranslation.html" class="md-nav__link">
+      <a href="../pipeline_usage/PP-DocTranslation.html" class="md-nav__link">
         
   
   
@@ -2048,7 +2125,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../other_devices_support/multi_devices_use_guide.html" class="md-nav__link">
+      <a href="../other_devices_support/multi_devices_use_guide.html" class="md-nav__link">
         
   
   
@@ -2071,7 +2148,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../other_devices_support/paddlepaddle_install_NPU.html" class="md-nav__link">
+      <a href="../other_devices_support/paddlepaddle_install_NPU.html" class="md-nav__link">
         
   
   
@@ -2094,7 +2171,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../other_devices_support/paddlepaddle_install_XPU.html" class="md-nav__link">
+      <a href="../other_devices_support/paddlepaddle_install_XPU.html" class="md-nav__link">
         
   
   
@@ -2175,7 +2252,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../paddleocr_and_paddlex.html" class="md-nav__link">
+      <a href="../paddleocr_and_paddlex.html" class="md-nav__link">
         
   
   
@@ -2198,7 +2275,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../update/upgrade_notes.html" class="md-nav__link">
+      <a href="../../update/upgrade_notes.html" class="md-nav__link">
         
   
   
@@ -2221,7 +2298,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../logging.html" class="md-nav__link">
+      <a href="../logging.html" class="md-nav__link">
         
   
   
@@ -2300,7 +2377,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../paddlex/overview.html" class="md-nav__link">
+      <a href="../paddlex/overview.html" class="md-nav__link">
         
   
   
@@ -2323,7 +2400,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../paddlex/quick_start.html" class="md-nav__link">
+      <a href="../paddlex/quick_start.html" class="md-nav__link">
         
   
   
@@ -2416,7 +2493,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../data_anno_synth/overview.html" class="md-nav__link">
+      <a href="../../data_anno_synth/overview.html" class="md-nav__link">
         
   
   
@@ -2439,7 +2516,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../data_anno_synth/data_annotation.html" class="md-nav__link">
+      <a href="../../data_anno_synth/data_annotation.html" class="md-nav__link">
         
   
   
@@ -2462,7 +2539,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../data_anno_synth/data_synthesis.html" class="md-nav__link">
+      <a href="../../data_anno_synth/data_synthesis.html" class="md-nav__link">
         
   
   
@@ -2485,7 +2562,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../datasets/datasets.html" class="md-nav__link">
+      <a href="../../datasets/datasets.html" class="md-nav__link">
         
   
   
@@ -2508,7 +2585,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../datasets/handwritten_datasets.html" class="md-nav__link">
+      <a href="../../datasets/handwritten_datasets.html" class="md-nav__link">
         
   
   
@@ -2531,7 +2608,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../datasets/vertical_and_multilingual_datasets.html" class="md-nav__link">
+      <a href="../../datasets/vertical_and_multilingual_datasets.html" class="md-nav__link">
         
   
   
@@ -2554,7 +2631,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../datasets/layout_datasets.html" class="md-nav__link">
+      <a href="../../datasets/layout_datasets.html" class="md-nav__link">
         
   
   
@@ -2577,7 +2654,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../datasets/table_datasets.html" class="md-nav__link">
+      <a href="../../datasets/table_datasets.html" class="md-nav__link">
         
   
   
@@ -2600,7 +2677,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../datasets/kie_datasets.html" class="md-nav__link">
+      <a href="../../datasets/kie_datasets.html" class="md-nav__link">
         
   
   
@@ -2630,7 +2707,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../update/update.html" class="md-nav__link">
+      <a href="../../update/update.html" class="md-nav__link">
         
   
   
@@ -2695,7 +2772,7 @@ You're not viewing the latest version.
         
           
           <div class="md-nav__link md-nav__container">
-            <a href="../../../version2.x/legacy/index.html" class="md-nav__link ">
+            <a href="../../version2.x/legacy/index.html" class="md-nav__link ">
               
   
   
@@ -2730,7 +2807,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../version2.x/legacy/model_list_2.x.html" class="md-nav__link">
+      <a href="../../version2.x/legacy/model_list_2.x.html" class="md-nav__link">
         
   
   
@@ -2753,7 +2830,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../version2.x/legacy/python_infer.html" class="md-nav__link">
+      <a href="../../version2.x/legacy/python_infer.html" class="md-nav__link">
         
   
   
@@ -2776,7 +2853,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../version2.x/legacy/cpp_infer.html" class="md-nav__link">
+      <a href="../../version2.x/legacy/cpp_infer.html" class="md-nav__link">
         
   
   
@@ -2799,7 +2876,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../version2.x/legacy/windows_vs2019_build.html" class="md-nav__link">
+      <a href="../../version2.x/legacy/windows_vs2019_build.html" class="md-nav__link">
         
   
   
@@ -2822,7 +2899,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../version2.x/legacy/paddle_server.html" class="md-nav__link">
+      <a href="../../version2.x/legacy/paddle_server.html" class="md-nav__link">
         
   
   
@@ -2845,7 +2922,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../version2.x/legacy/android_demo.html" class="md-nav__link">
+      <a href="../../version2.x/legacy/android_demo.html" class="md-nav__link">
         
   
   
@@ -2868,7 +2945,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../version2.x/legacy/lite.html" class="md-nav__link">
+      <a href="../../version2.x/legacy/lite.html" class="md-nav__link">
         
   
   
@@ -2891,7 +2968,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../version2.x/legacy/paddle2onnx.html" class="md-nav__link">
+      <a href="../../version2.x/legacy/paddle2onnx.html" class="md-nav__link">
         
   
   
@@ -2914,7 +2991,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../version2.x/legacy/paddle_cloud.html" class="md-nav__link">
+      <a href="../../version2.x/legacy/paddle_cloud.html" class="md-nav__link">
         
   
   
@@ -2937,7 +3014,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../version2.x/legacy/benchmark.html" class="md-nav__link">
+      <a href="../../version2.x/legacy/benchmark.html" class="md-nav__link">
         
   
   
@@ -2967,7 +3044,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../FAQ.html" class="md-nav__link">
+      <a href="../../FAQ.html" class="md-nav__link">
         
   
   
@@ -3038,7 +3115,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../community/community_contribution.html" class="md-nav__link">
+      <a href="../../community/community_contribution.html" class="md-nav__link">
         
   
   
@@ -3061,7 +3138,7 @@ You're not viewing the latest version.
   
   
     <li class="md-nav__item">
-      <a href="../../../community/code_and_doc.html" class="md-nav__link">
+      <a href="../../community/code_and_doc.html" class="md-nav__link">
         
   
   
@@ -3104,6 +3181,59 @@ You're not viewing the latest version.
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-supported-model-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Supported Model List
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-quick-start" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Quick Start
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-custom-development" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Custom Development
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-faq" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. FAQ
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -3118,7 +3248,7 @@ You're not viewing the latest version.
 
 
   
-    <a href="https://github.com/PaddlePaddle/PaddleOCR/edit/main/docs/version3.x/algorithm/PP-StructureV3/PP-StructureV3.en.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+    <a href="https://github.com/PaddlePaddle/PaddleOCR/edit/main/docs/version3.x/module_usage/chart_parsing.en.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75z"/></svg>
     </a>
@@ -3127,1526 +3257,221 @@ You're not viewing the latest version.
     
       
     
-    <a href="https://github.com/PaddlePaddle/PaddleOCR/raw/main/docs/version3.x/algorithm/PP-StructureV3/PP-StructureV3.en.md" title="View source of this page" class="md-content__button md-icon">
+    <a href="https://github.com/PaddlePaddle/PaddleOCR/raw/main/docs/version3.x/module_usage/chart_parsing.en.md" title="View source of this page" class="md-content__button md-icon">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0 8a5 5 0 0 1-5-5 5 5 0 0 1 5-5 5 5 0 0 1 5 5 5 5 0 0 1-5 5m0-12.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5"/></svg>
     </a>
   
 
 
-<h1 id="introduction-to-pp-structurev3">Introduction to PP-StructureV3<a class="headerlink" href="#introduction-to-pp-structurev3" title="Permanent link">&para;</a></h1>
-<p><strong>PP-StructureV3</strong> pipeline, based on the Layout Parsing v1 pipeline, has strengthened the ability of layout detection, table recognition, and formula recognition. It has also added the ability to understand charts and restore reading order, as well as the ability to convert results into Markdown files. In various document data, it performs excellently and can handle more complex document data. This pipeline also provides flexible service-oriented deployment methods, supporting the use of multiple programming languages on various hardware. Moreover, it also provides the ability for secondary development. You can train and optimize on your own dataset based on this pipeline, and the trained model can be seamlessly integrated.</p>
-<div align="center">
-<img src="https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/refs/heads/main/images/paddleocr/PP-StructureV3/algorithm_ppstructurev3.png" width="600"/>
-</div>
-
-<h1 id="key-metrics">Key Metrics<a class="headerlink" href="#key-metrics" title="Permanent link">&para;</a></h1>
+<h1 id="chart-parsing-module-tutorial">Chart Parsing Module Tutorial<a class="headerlink" href="#chart-parsing-module-tutorial" title="Permanent link">&para;</a></h1>
+<h2 id="1-overview">1. Overview<a class="headerlink" href="#1-overview" title="Permanent link">&para;</a></h2>
+<p>Multimodal chart parsing is a cutting-edge OCR technology that focuses on automatically converting various types of visual charts (such as bar charts, line charts, pie charts, etc.) into structured data tables with formatted output. Traditional methods rely on complex pipeline designs with chart keypoint detection models, which involve many prior assumptions and tend to lack robustness. The models in this module leverage the latest VLM (Vision-Language Model) techniques and are data-driven, learning robust features from vast real-world datasets. Application scenarios include financial analysis, academic research, business reporting, and more—for instance, quickly extracting growth trend data from financial reports, experimental comparison figures from research papers, or user distribution statistics from market surveys—empowering users to transition from “viewing charts” to “using data”.</p>
+<h2 id="2-supported-model-list">2. Supported Model List<a class="headerlink" href="#2-supported-model-list" title="Permanent link">&para;</a></h2>
 <table>
-  <thead>
-    <tr>
-      <th rowspan="2">Method Type</th>
-      <th rowspan="2">Methods</th>
-      <th colspan="2">Overall<sup>Edit</sup>↓</th>
-      <th colspan="2">Text<sup>Edit</sup>↓</th>
-      <th colspan="2">Formula<sup>Edit</sup>↓</th>
-      <th colspan="2">Table<sup>Edit</sup>↓</th>
-      <th colspan="2">Read Order<sup>Edit</sup>↓</th>
-    </tr>
-    <tr>
-      <th>EN</th>
-      <th>ZH</th>
-      <th>EN</th>
-      <th>ZH</th>
-      <th>EN</th>
-      <th>ZH</th>
-      <th>EN</th>
-      <th>ZH</th>
-      <th>EN</th>
-      <th>ZH</th>
-    </tr>
-  </thead>
- <tbody>
-  <tr> 
-   <td rowspan="9">Pipeline Tools</td> 
-   <td><b>PP-structureV3</b></td> 
-   <td><b>0.145</b></td> 
-   <td><b>0.206</b></td> 
-   <td>0.058</td> 
-   <td><b>0.088</b></td> 
-   <td>0.295</td> 
-   <td>0.535</td> 
-   <td>0.159</td> 
-   <td><b>0.109</b></td> 
-   <td>0.069</td> 
-   <td><b>0.091</b></td> 
-  </tr> 
-  <tr> 
-   <td>MinerU-0.9.3</td> 
-   <td>0.15</td> 
-   <td>0.357</td> 
-   <td>0.061</td> 
-   <td>0.215</td> 
-   <td>0.278</td> 
-   <td>0.577</td> 
-   <td>0.18</td> 
-   <td>0.344</td> 
-   <td>0.079</td> 
-   <td>0.292</td> 
-  </tr> 
-  <tr> 
-   <td>MinerU-1.3.11</td> 
-   <td>0.166</td> 
-   <td>0.310</td> 
-   <td>0.0826</td> 
-   <td>0.2000</td> 
-   <td>0.3368</td> 
-   <td>0.6236</td> 
-   <td>0.1613</td> 
-   <td>0.1833</td> 
-   <td>0.0834</td> 
-   <td>0.2316</td> 
-  </tr> 
-  <tr> 
-   <td>Marker-1.2.3</td> 
-   <td>0.336</td> 
-   <td>0.556</td> 
-   <td>0.08</td> 
-   <td>0.315</td> 
-   <td>0.53</td> 
-   <td>0.883</td> 
-   <td>0.619</td> 
-   <td>0.685</td> 
-   <td>0.114</td> 
-   <td>0.34</td> 
-  </tr> 
-  <tr> 
-   <td>Mathpix</td> 
-   <td>0.191</td> 
-   <td>0.365</td> 
-   <td>0.105</td> 
-   <td>0.384</td> 
-   <td>0.306</td> 
-   <td>0.454</td> 
-   <td>0.243</td> 
-   <td>0.32</td> 
-   <td>0.108</td> 
-   <td>0.304</td> 
-  </tr> 
-  <tr> 
-   <td>Docling-2.14.0</td> 
-   <td>0.589</td> 
-   <td>0.909</td> 
-   <td>0.416</td> 
-   <td>0.987</td> 
-   <td>0.999</td> 
-   <td>1</td> 
-   <td>0.627</td> 
-   <td>0.81</td> 
-   <td>0.313</td> 
-   <td>0.837</td> 
-  </tr> 
-  <tr> 
-   <td>Pix2Text-1.1.2.3</td> 
-   <td>0.32</td> 
-   <td>0.528</td> 
-   <td>0.138</td> 
-   <td>0.356</td> 
-   <td><b>0.276</b></td> 
-   <td>0.611</td> 
-   <td>0.584</td> 
-   <td>0.645</td> 
-   <td>0.281</td> 
-   <td>0.499</td> 
-  </tr> 
-  <tr> 
-   <td>Unstructured-0.17.2</td> 
-   <td>0.586</td> 
-   <td>0.716</td> 
-   <td>0.198</td> 
-   <td>0.481</td> 
-   <td>0.999</td> 
-   <td>1</td> 
-   <td>1</td> 
-   <td>0.998</td> 
-   <td>0.145</td> 
-   <td>0.387</td> 
-  </tr> 
-  <tr> 
-   <td>OpenParse-0.7.0</td> 
-   <td>0.646</td> 
-   <td>0.814</td> 
-   <td>0.681</td> 
-   <td>0.974</td> 
-   <td>0.996</td> 
-   <td>1</td> 
-   <td>0.284</td> 
-   <td>0.639</td> 
-   <td>0.595</td> 
-   <td>0.641</td> 
-  </tr> 
-  <tr> 
-   <td rowspan="5">Expert VLMs</td> 
-   <td>GOT-OCR</td> 
-   <td>0.287</td> 
-   <td>0.411</td> 
-   <td>0.189</td> 
-   <td>0.315</td> 
-   <td>0.36</td> 
-   <td>0.528</td> 
-   <td>0.459</td> 
-   <td>0.52</td> 
-   <td>0.141</td> 
-   <td>0.28</td> 
-  </tr> 
-  <tr> 
-   <td>Nougat</td> 
-   <td>0.452</td> 
-   <td>0.973</td> 
-   <td>0.365</td> 
-   <td>0.998</td> 
-   <td>0.488</td> 
-   <td>0.941</td> 
-   <td>0.572</td> 
-   <td>1</td> 
-   <td>0.382</td> 
-   <td>0.954</td> 
-  </tr> 
-  <tr> 
-   <td>Mistral OCR</td> 
-   <td>0.268</td> 
-   <td>0.439</td> 
-   <td>0.072</td> 
-   <td>0.325</td> 
-   <td>0.318</td> 
-   <td>0.495</td> 
-   <td>0.6</td> 
-   <td>0.65</td> 
-   <td>0.083</td> 
-   <td>0.284</td> 
-  </tr> 
-  <tr> 
-   <td>OLMOCR-sglang</td> 
-   <td>0.326</td> 
-   <td>0.469</td> 
-   <td>0.097</td> 
-   <td>0.293</td> 
-   <td>0.455</td> 
-   <td>0.655</td> 
-   <td>0.608</td> 
-   <td>0.652</td> 
-   <td>0.145</td> 
-   <td>0.277</td> 
-  </tr> 
-  <tr> 
-   <td>SmolDocling-256M_transformer</td> 
-   <td>0.493</td> 
-   <td>0.816</td> 
-   <td>0.262</td> 
-   <td>0.838</td> 
-   <td>0.753</td> 
-   <td>0.997</td> 
-   <td>0.729</td> 
-   <td>0.907</td> 
-   <td>0.227</td> 
-   <td>0.522</td> 
-  </tr> 
-  <tr> 
-   <td rowspan="6">General VLMs</td> 
-   <td>Gemini2.0-flash</td> 
-   <td>0.191</td> 
-   <td>0.264</td> 
-   <td>0.091</td> 
-   <td>0.139</td> 
-   <td>0.389</td> 
-   <td>0.584</td> 
-   <td>0.193</td> 
-   <td>0.206</td> 
-   <td>0.092</td> 
-   <td>0.128</td> 
-  </tr> 
-  <tr> 
-   <td>Gemini2.5-Pro</td> 
-   <td>0.148</td> 
-   <td><b>0.212</b></td> 
-   <td><b>0.055</b></td> 
-   <td>0.168</td> 
-   <td>0.356</td> 
-   <td>0.439</td> 
-   <td><b>0.13</b></td> 
-   <td>0.119</td> 
-   <td><b>0.049</b></td> 
-   <td>0.121</td> 
-  </tr> 
-  <tr> 
-   <td>GPT4o</td> 
-   <td>0.233</td> 
-   <td>0.399</td> 
-   <td>0.144</td> 
-   <td>0.409</td> 
-   <td>0.425</td> 
-   <td>0.606</td> 
-   <td>0.234</td> 
-   <td>0.329</td> 
-   <td>0.128</td> 
-   <td>0.251</td> 
-  </tr> 
-  <tr> 
-   <td>Qwen2-VL-72B</td> 
-   <td>0.252</td> 
-   <td>0.327</td> 
-   <td>0.096</td> 
-   <td>0.218</td> 
-   <td>0.404</td> 
-   <td>0.487</td> 
-   <td>0.387</td> 
-   <td>0.408</td> 
-   <td>0.119</td> 
-   <td>0.193</td> 
-  </tr> 
-  <tr> 
-   <td>Qwen2.5-VL-72B</td> 
-   <td>0.214</td> 
-   <td>0.261</td> 
-   <td>0.092</td> 
-   <td>0.18</td> 
-   <td>0.315</td> 
-   <td><b>0.434</b></td> 
-   <td>0.341</td> 
-   <td>0.262</td> 
-   <td>0.106</td> 
-   <td>0.168</td> 
-  </tr> 
-  <tr> 
-   <td>InternVL2-76B</td> 
-   <td>0.44</td> 
-   <td>0.443</td> 
-   <td>0.353</td> 
-   <td>0.29</td> 
-   <td>0.543</td> 
-   <td>0.701</td> 
-   <td>0.547</td> 
-   <td>0.555</td> 
-   <td>0.317</td> 
-   <td>0.228</td> 
-  </tr> 
- </tbody>
+<tr>
+<th>Model</th><th>Download Link</th>
+<th>Model Size (B)</th>
+<th>Storage Size (GB)</th>
+<th>Score</th>
+<th>Description</th>
+</tr>
+<tr>
+<td>PP-Chart2Table</td>
+<td><a href="https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-Chart2Table_infer.tar">Inference Model</a></td>
+<td>0.58</td>
+<td>1.4</td>
+<th>80.60</th>
+<td>PP-Chart2Table is a multimodal chart parsing model developed by the PaddlePaddle team. It demonstrates exceptional performance on both Chinese and English chart parsing tasks. The team designed a specialized “Shuffled Chart Data Retrieval” training task and adopted a carefully designed token masking strategy, significantly improving performance on chart-to-table conversion. Additionally, the team enhanced the model with a high-quality data synthesis process using seed data, RAG, and LLM persona-driven generation to diversify training data. To handle large amounts of out-of-distribution (OOD) unlabeled data, a two-stage large model distillation process was used to ensure excellent adaptability and generalization to diverse real-world data. In internal Chinese-English use case evaluations, PP-Chart2Table achieved state-of-the-art performance among models of similar size and reached accuracy comparable to 7B-parameter VLMs in key scenarios.</td>
+</tr>
 </table>
 
-<p>The above data is from:
-* <a href="https://github.com/opendatalab/OmniDocBench">OmniDocBench</a>
-* <a href="https://arxiv.org/abs/2412.07626">OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations</a></p>
-<h1 id="end-to-end-benchmark">End to End Benchmark<a class="headerlink" href="#end-to-end-benchmark" title="Permanent link">&para;</a></h1>
-<p>The performance of PP-StructureV3 and MinerU with different configurations under different GPU environments are as follows.</p>
-<p>Requirements:
-* Paddle 3.0
-* PaddleOCR 3.0.0
-* MinerU 1.3.10
-* CUDA 11.8
-* cuDNN 8.9</p>
-<h2 id="local-inference">Local inference<a class="headerlink" href="#local-inference" title="Permanent link">&para;</a></h2>
-<p>Local inference was tested with both V100 and A100 GPU, evaluating the performance of PP-StructureV3 under 6 different configurations. The test data consists of 15 PDF files, totaling 925 pages, including elements such as tables, formulas, seals, and charts.</p>
-<p>In the following PP-StructureV3 configuration, please refer to <a href="../PP-OCRv5/PP-OCRv5.html">PP-OCRv5</a> for OCR model details, see <a href="../../module_usage/formula_recognition.html">Formula Recognition</a> for formula recognition model details, and refer to <a href="../../module_usage/text_detection.html">Text Detection</a> for the max_side_limit setting of the text detection module.</p>
-<h3 id="env-nvidia-tesla-v100-intel-xeon-gold-6271c">Env: NVIDIA Tesla V100 + Intel Xeon Gold 6271C<a class="headerlink" href="#env-nvidia-tesla-v100-intel-xeon-gold-6271c" title="Permanent link">&para;</a></h3>
-<table border="1">
- <tr>
-  <td>
-   Methods
-  </td>
-  <td colspan="4">
-   Configurations
-  </td>
-  <td rowspan="2">
-   Average time per
-  page
-    (s)
-  </td>
-  <td rowspan="2">
-   Average CPU
-    （%）
-  </td>
-  <td rowspan="2">
-   Peak RAM Usage
-    （GB）
-  </td>
-  <td rowspan="2">
-   Average RAM
-  Usage
-    （GB）
-  </td>
-  <td rowspan="2">
-   Average GPU
-    （%）
-  </td>
-  <td rowspan="2">
-   Peak VRAM Usage
-    （GB）
-  </td>
-  <td rowspan="2">
-   Average VRAM
-  Usage
-    （GB）
-  </td>
- </tr>
- <tr>
-  <td rowspan="7">
-   PP-StructureV3
-  </td>
-  <td>
-   OCR Models
-  </td>
-  <td>
-   Formula Recognition Model
-  </td>
-  <td>
-   Chart Recognition Model
-  </td>
-  <td>
-   text detection module max_side_limit
-  </td>
- </tr>
- <tr>
-  <td>
-   Server
-  </td>
-  <td>
-   PP-FormulaNet-L
-  </td>
-  <td>
-   ✗
-  </td>
-  <td>
-   4096
-  </td>
-  <td>
-   1.77
-  </td>
-  <td>
-   111.4
-  </td>
-  <td>
-   6.7
-  </td>
-  <td>
-   5.2
-  </td>
-  <td>
-   38.9
-  </td>
-  <td>
-   17.0
-  </td>
-  <td>
-   16.5
-  </td>
- </tr>
- <tr>
-  <td>
-   Server
-  </td>
-  <td>
-   PP-FormulaNet-L
-  </td>
-  <td>
-   ✔
-  </td>
-  <td>
-   4096
-  </td>
-  <td>
-   4.09
-  </td>
-  <td>
-   105.3
-  </td>
-  <td>
-   5.5
-  </td>
-  <td>
-   4.0
-  </td>
-  <td>
-   24.7
-  </td>
-  <td>
-   17.0
-  </td>
-  <td>
-   16.6
-  </td>
- </tr>
- <tr>
-  <td>
-   Mobile
-  </td>
-  <td>
-   PP-FormulaNet-L
-  </td>
-  <td>
-   ✗
-  </td>
-  <td>
-   4096
-  </td>
-  <td>
-   1.56
-  </td>
-  <td>
-   113.7
-  </td>
-  <td>
-   6.6
-  </td>
-  <td>
-   4.9
-  </td>
-  <td>
-   29.1
-  </td>
-  <td>
-   10.7
-  </td>
-  <td>
-   10.6
-  </td>
- </tr>
- <tr>
-  <td>
-   Server
-  </td>
-  <td>
-   PP-FormulaNet-M
-  </td>
-  <td>
-   ✗
-  </td>
-  <td>
-   4096
-  </td>
-  <td>
-   1.42
-  </td>
-  <td>
-   112.9
-  </td>
-  <td>
-   6.8
-  </td>
-  <td>
-   5.1
-  </td>
-  <td>
-   38
-  </td>
-  <td>
-   16.0
-  </td>
-  <td>
-   15.5
-  </td>
- </tr>
- <tr>
-  <td>
-   Mobile
-  </td>
-  <td>
-   PP-FormulaNet-M
-  </td>
-  <td>
-   ✗
-  </td>
-  <td>
-   4096
-  </td>
-  <td>
-   1.15
-  </td>
-  <td>
-   114.8
-  </td>
-  <td>
-   6.5
-  </td>
-  <td>
-   5.0
-  </td>
-  <td>
-   26.1
-  </td>
-  <td>
-   8.4
-  </td>
-  <td>
-   8.3
-  </td>
- </tr>
- <tr>
-  <td>
-   Mobile
-  </td>
-  <td>
-   PP-FormulaNet-M
-  </td>
-  <td>
-   ✗
-  </td>
-  <td>
-   1200
-  </td>
-  <td>
-   0.99
-  </td>
-  <td>
-   113
-  </td>
-  <td>
-   7.0
-  </td>
-  <td>
-   5.6
-  </td>
-  <td>
-   29.2
-  </td>
-  <td>
-   8.6
-  </td>
-  <td>
-   8.5
-  </td>
- </tr>
- <tr>
-  <td>
-   MinerU
-  </td>
-  <td colspan="4">
-   -
-  </td>
-  <td>
-   1.57
-  </td>
-  <td>
-   142.9
-  </td>
-  <td>
-   13.3
-  </td>
-  <td>
-   11.8
-  </td>
-  <td>
-   43.3
-  </td>
-  <td>
-   31.6
-  </td>
-  <td>
-   9.7
-  </td>
- </tr>
-</table>
-
-<h3 id="nvidia-a100-intel-xeon-platinum-8350c">NVIDIA A100 + Intel Xeon Platinum 8350C<a class="headerlink" href="#nvidia-a100-intel-xeon-platinum-8350c" title="Permanent link">&para;</a></h3>
-<table border="1">
- <tr>
-  <td>
-   Methods
-  </td>
-  <td colspan="4">
-   Configurations
-  </td>
-  <td rowspan="2">
-   Average time per
-  page
-    (s)
-  </td>
-  <td rowspan="2">
-   Average CPU
-    （%）
-  </td>
-  <td rowspan="2">
-   Peak RAM Usage
-    （GB）
-  </td>
-  <td rowspan="2">
-   Average RAM
-  Usage
-    （GB）
-  </td>
-  <td rowspan="2">
-   Average GPU
-    （%）
-  </td>
-  <td rowspan="2">
-   Peak VRAM Usage
-    （GB）
-  </td>
-  <td rowspan="2">
-   Average VRAM
-  Usage
-    （GB）
-  </td>
- </tr>
- <tr>
-  <td rowspan="7">
-   PP-StructureV3
-  </td>
-  <td>
-   OCR Models
-  </td>
-  <td>
-   Formula Recognition Model
-  </td>
-  <td>
-   Chart Recognition Model
-  </td>
-  <td>
-   text detection module max_side_limit
-  </td>
- </tr>
- <tr>
-  <td>
-   Server
-  </td>
-  <td>
-   PP-FormulaNet-L
-  </td>
-  <td>
-   ✗
-  </td>
-  <td>
-   4096
-  </td>
-  <td>
-   1.12
-  </td>
-  <td>
-   109.8
-  </td>
-  <td>
-   9.2
-  </td>
-  <td>
-   7.8
-  </td>
-  <td>
-   29.8
-  </td>
-  <td>
-   21.8
-  </td>
-  <td>
-   21.1
-  </td>
- </tr>
- <tr>
-  <td>
-   Server
-  </td>
-  <td>
-   PP-FormulaNet-L
-  </td>
-  <td>
-   ✔
-  </td>
-  <td>
-   4096
-  </td>
-  <td>
-   2.76
-  </td>
-  <td>
-   103.7
-  </td>
-  <td>
-   9.0
-  </td>
-  <td>
-   7.7
-  </td>
-  <td>
-   24
-  </td>
-  <td>
-   21.8
-  </td>
-  <td>
-   21.1
-  </td>
- </tr>
- <tr>
-  <td>
-   Mobile
-  </td>
-  <td>
-   PP-FormulaNet-L
-  </td>
-  <td>
-   ✗
-  </td>
-  <td>
-   4096
-  </td>
-  <td>
-   1.04
-  </td>
-  <td>
-   110.7
-  </td>
-  <td>
-   9.3
-  </td>
-  <td>
-   7.8
-  </td>
-  <td>
-   22
-  </td>
-  <td>
-   12.2
-  </td>
-  <td>
-   12.1
-  </td>
- </tr>
- <tr>
-  <td>
-   Server
-  </td>
-  <td>
-   PP-FormulaNet-M
-  </td>
-  <td>
-   ✗
-  </td>
-  <td>
-   4096
-  </td>
-  <td>
-   0.95
-  </td>
-  <td>
-   111.4
-  </td>
-  <td>
-   9.1
-  </td>
-  <td>
-   7.8
-  </td>
-  <td>
-   28.1
-  </td>
-  <td>
-   21.8
-  </td>
-  <td>
-   21.0
-  </td>
- </tr>
- <tr>
-  <td>
-   Mobile
-  </td>
-  <td>
-   PP-FormulaNet-M
-  </td>
-  <td>
-   ✗
-  </td>
-  <td>
-   4096
-  </td>
-  <td>
-   0.89
-  </td>
-  <td>
-   112.1
-  </td>
-  <td>
-   9.2
-  </td>
-  <td>
-   7.8
-  </td>
-  <td>
-   18.5
-  </td>
-  <td>
-   11.4
-  </td>
-  <td>
-   11.2
-  </td>
- </tr>
- <tr>
-  <td>
-   Mobile
-  </td>
-  <td>
-   PP-FormulaNet-M
-  </td>
-  <td>
-   ✗
-  </td>
-  <td>
-   1200
-  </td>
-  <td>
-   0.64
-  </td>
-  <td>
-   113.5
-  </td>
-  <td>
-   10.2
-  </td>
-  <td>
-   8.5
-  </td>
-  <td>
-   23.7
-  </td>
-  <td>
-   11.4
-  </td>
-  <td>
-   11.2
-  </td>
- </tr>
- <tr>
-  <td>
-   MinerU
-  </td>
-  <td colspan="4">
-   -
-  </td>
-  <td>
-   1.06
-  </td>
-  <td>
-   168.3
-  </td>
-  <td>
-   18.3
-  </td>
-  <td>
-   16.8
-  </td>
-  <td>
-   27.5
-  </td>
-  <td>
-   76.9
-  </td>
-  <td>
-   14.8
-  </td>
- </tr>
-</table>
-
-<h2 id="serving-inference">Serving Inference<a class="headerlink" href="#serving-inference" title="Permanent link">&para;</a></h2>
-<p>The serving inference test is based on the NVIDIA A100 + Intel Xeon Platinum 8350C environment, with test data consisting of 1500 images, including tables, formulas, seals, charts, and other elements.</p>
+<p><strong>Note:</strong> The scores above are based on internal evaluation on a test set of 1801 samples, covering various chart types (bar, line, pie, etc.) across scenarios such as financial reports, regulations, and contracts. There is currently no plan for public release.</p>
+<blockquote>
+<p>❗ <strong>Note:</strong> The PP-Chart2Table model was upgraded on June 27, 2025. To use the previous version, please download it <a href="https://paddle-model-ecology.bj.bcebos.com/paddlex/official_inference_model/paddle3.0.0/PP-Chart2Table_infer.bak.tar">here</a></p>
+</blockquote>
+<h2 id="3-quick-start">3. Quick Start<a class="headerlink" href="#3-quick-start" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p>❗ Before getting started, please install the PaddleOCR wheel package. Refer to the <a href="../installation.html">Installation Guide</a> for details.</p>
+</blockquote>
+<p>Run the following command to get started instantly:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>paddleocr<span class="w"> </span>chart_parsing<span class="w"> </span>-i<span class="w"> </span><span class="s2">&quot;{&#39;image&#39;: &#39;https://paddle-model-ecology.bj.bcebos.com/paddlex/imgs/demo_image/chart_parsing_02.png&#39;}&quot;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="sb">````</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>**Note:**<span class="w"> </span>By<span class="w"> </span>default,<span class="w"> </span>PaddleOCR<span class="w"> </span>retrieves<span class="w"> </span>models<span class="w"> </span>from<span class="w"> </span>HuggingFace.<span class="w"> </span>If<span class="w"> </span>HuggingFace<span class="w"> </span>access<span class="w"> </span>is<span class="w"> </span>restricted<span class="w"> </span><span class="k">in</span><span class="w"> </span>your<span class="w"> </span>environment,<span class="w"> </span>you<span class="w"> </span>can<span class="w"> </span>switch<span class="w"> </span>the<span class="w"> </span>model<span class="w"> </span><span class="nb">source</span><span class="w"> </span>to<span class="w"> </span>BOS<span class="w"> </span>by<span class="w"> </span>setting<span class="w"> </span>the<span class="w"> </span>environment<span class="w"> </span>variable:<span class="w"> </span><span class="sb">`</span><span class="nv">PADDLE_PDX_MODEL_SOURCE</span><span class="o">=</span><span class="s2">&quot;BOS&quot;</span><span class="sb">`</span>.<span class="w"> </span>Support<span class="w"> </span><span class="k">for</span><span class="w"> </span>more<span class="w"> </span>mainstream<span class="w"> </span>sources<span class="w"> </span>is<span class="w"> </span>planned.
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>You<span class="w"> </span>can<span class="w"> </span>also<span class="w"> </span>integrate<span class="w"> </span>the<span class="w"> </span>inference<span class="w"> </span>of<span class="w"> </span>the<span class="w"> </span>vision-language<span class="w"> </span>model<span class="w"> </span>into<span class="w"> </span>your<span class="w"> </span>own<span class="w"> </span>project.<span class="w"> </span>Please<span class="w"> </span>download<span class="w"> </span>the<span class="w"> </span><span class="o">[</span>example<span class="w"> </span>image<span class="o">](</span>https://paddle-model-ecology.bj.bcebos.com/paddlex/imgs/demo_image/chart_parsing_02.png<span class="o">)</span><span class="w"> </span>locally<span class="w"> </span>before<span class="w"> </span>running<span class="w"> </span>the<span class="w"> </span>following<span class="w"> </span>code:
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a><span class="sb">```</span>python
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>from<span class="w"> </span>paddleocr<span class="w"> </span>import<span class="w"> </span>ChartParsing
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a><span class="nv">model</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>ChartParsing<span class="o">(</span><span class="nv">model_name</span><span class="o">=</span><span class="s2">&quot;PP-Chart2Table&quot;</span><span class="o">)</span>
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a><span class="nv">results</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>model.predict<span class="o">(</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a><span class="w">    </span><span class="nv">input</span><span class="o">={</span><span class="s2">&quot;image&quot;</span>:<span class="w"> </span><span class="s2">&quot;chart_parsing_02.png&quot;</span><span class="o">}</span>,
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a><span class="w">    </span><span class="nv">batch_size</span><span class="o">=</span><span class="m">1</span>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a><span class="o">)</span>
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a><span class="k">for</span><span class="w"> </span>res<span class="w"> </span><span class="k">in</span><span class="w"> </span>results:
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a><span class="w">    </span>res.print<span class="o">()</span>
+</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a><span class="w">    </span>res.save_to_json<span class="o">(</span>f<span class="s2">&quot;./output/res.json&quot;</span><span class="o">)</span>
+</span></code></pre></div>
+<p>The output result will be:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="o">{</span><span class="s1">&#39;res&#39;</span>:<span class="w"> </span><span class="o">{</span><span class="s1">&#39;image&#39;</span>:<span class="w"> </span><span class="s1">&#39;chart_parsing_02.png&#39;</span>,<span class="w"> </span><span class="s1">&#39;result&#39;</span>:<span class="w"> </span><span class="s1">&#39;Year | Avg Revenue per 5-star Hotel (Million CNY) | Avg Profit per 5-star Hotel (Million CNY)\n2018 | 104.22 | 9.87\n2019 | 99.11 | 7.47\n2020 | 57.87 | -3.87\n2021 | 68.99 | -2.9\n2022 | 56.29 | -9.48\n2023 | 87.99 | 5.96&#39;</span><span class="o">}}</span>
+</span></code></pre></div>
+<p>Explanation of output parameters:</p>
+<ul>
+<li><code>image</code>: The path to the input image</li>
+<li><code>result</code>: The model's prediction output</li>
+</ul>
+<p>The visualized result is:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>Year<span class="w"> </span><span class="p">|</span><span class="w"> </span>Avg<span class="w"> </span>Revenue<span class="w"> </span>per<span class="w"> </span><span class="m">5</span>-star<span class="w"> </span>Hotel<span class="w"> </span><span class="o">(</span>Million<span class="w"> </span>CNY<span class="o">)</span><span class="w"> </span><span class="p">|</span><span class="w"> </span>Avg<span class="w"> </span>Profit<span class="w"> </span>per<span class="w"> </span><span class="m">5</span>-star<span class="w"> </span>Hotel<span class="w"> </span><span class="o">(</span>Million<span class="w"> </span>CNY<span class="o">)</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="m">2018</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">104</span>.22<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">9</span>.87
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="m">2019</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">99</span>.11<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">7</span>.47
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="m">2020</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">57</span>.87<span class="w"> </span><span class="p">|</span><span class="w"> </span>-3.87
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="m">2021</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">68</span>.99<span class="w"> </span><span class="p">|</span><span class="w"> </span>-2.9
+</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="m">2022</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">56</span>.29<span class="w"> </span><span class="p">|</span><span class="w"> </span>-9.48
+</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="m">2023</span><span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">87</span>.99<span class="w"> </span><span class="p">|</span><span class="w"> </span><span class="m">5</span>.96
+</span></code></pre></div>
+<p>Detailed explanation of related methods and parameters:</p>
+<ul>
+<li>Instantiate a vision-language model with <code>ChartParsing</code>. Parameters:</li>
+</ul>
 <table>
- <tbody>
-  <tr> 
-   <td>Instances Number</td> 
-   <td>Concurrent Requests Number</td> 
-   <td>Throughput</td> 
-   <td>Average Latency (s)</td> 
-   <td>Success Number/Total Number</td> 
-  </tr> 
-  <tr"> 
-   <td>4 GPUs ✖️ 1 instance/gpu</td> 
-   <td>4</td> 
-   <td>1.69</td> 
-   <td>2.36</td> 
-   <td>100%</td> 
-  </tr> 
-  <tr"> 
-   <td>4 GPUs ✖️ 4 instances/gpu</td> 
-   <td>16</td> 
-   <td>4.05</td> 
-   <td>3.87</td> 
-   <td>100%</td> 
-  </tr> 
- </tbody>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Type</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>model_name</code></td>
+<td>Model name. If set to <code>None</code>, defaults to <code>PP-Chart2Table</code>.</td>
+<td><code>str | None</code></td>
+<td><code>None</code></td>
+</tr>
+<tr>
+<td><code>model_dir</code></td>
+<td>Model storage path.</td>
+<td><code>str | None</code></td>
+<td><code>None</code></td>
+</tr>
+<tr>
+<td><code>device</code></td>
+<td>Inference device.<br/>
+<b>Examples:</b> <code>"cpu"</code>, <code>"gpu"</code>, <code>"npu"</code>, <code>"gpu:0"</code><br/>
+Defaults to GPU 0 if available; otherwise falls back to CPU.
+</td>
+<td><code>str | None</code></td>
+<td><code>None</code></td>
+</tr>
+</tbody>
 </table>
-
-<h2 id="pipeline-benchmark-data">Pipeline benchmark data<a class="headerlink" href="#pipeline-benchmark-data" title="Permanent link">&para;</a></h2>
-<details>
-<summary>Click to expand/collapse the table</summary>
-
-<table border="1">
-<tr><th>Pipeline configuration</th><th>Hardware</th><th>Avg. inference time (s)</th><th>Peak CPU utilization (%)</th><th>Avg. CPU utilization (%)</th><th>Peak host memory (MB)</th><th>Avg. host memory (MB)</th><th>Peak GPU utilization (%)</th><th>Avg. GPU utilization (%)</th><th>Peak device memory (MB)</th><th>Avg. device memory (MB)</th></tr>
-<tr>
-<td rowspan="5">PP_StructureV3-default</td>
-<td>Intel 8350C + A100</td>
-<td>1.38</td>
-<td>1384.60</td>
-<td>113.26</td>
-<td>5781.59</td>
-<td>3431.21</td>
-<td>100</td>
-<td>32.79</td>
-<td>37370.00</td>
-<td>34165.68</td>
-</tr>
-<tr>
-<td>Intel 6271C + V100</td>
-<td>2.38</td>
-<td>608.70</td>
-<td>109.96</td>
-<td>6388.91</td>
-<td>3737.19</td>
-<td>100</td>
-<td>39.08</td>
-<td>26824.00</td>
-<td>24581.61</td>
-</tr>
-<tr>
-<td>Intel 8563C + H20</td>
-<td>1.36</td>
-<td>744.30</td>
-<td>112.82</td>
-<td>6199.01</td>
-<td>3865.78</td>
-<td>100</td>
-<td>43.81</td>
-<td>35132.00</td>
-<td>32077.12</td>
-</tr>
-<tr>
-<td>Intel 8350C + A10</td>
-<td>1.74</td>
-<td>418.50</td>
-<td>105.96</td>
-<td>6138.25</td>
-<td>3503.41</td>
-<td>100</td>
-<td>48.54</td>
-<td>18536.00</td>
-<td>18353.93</td>
-</tr>
-<tr>
-<td>Intel 6271C + T4</td>
-<td>3.70</td>
-<td>434.40</td>
-<td>105.45</td>
-<td>6865.87</td>
-<td>3595.68</td>
-<td>100</td>
-<td>71.92</td>
-<td>13970.00</td>
-<td>12668.58</td>
-</tr>
-<tr>
-<td rowspan="3">PP_StructureV3-pp</td>
-<td>Intel 8350C + A100</td>
-<td>3.50</td>
-<td>679.30</td>
-<td>105.96</td>
-<td>13850.20</td>
-<td>5146.50</td>
-<td>100</td>
-<td>14.01</td>
-<td>37656.00</td>
-<td>34716.95</td>
-</tr>
-<tr>
-<td>Intel 6271C + V100</td>
-<td>5.03</td>
-<td>494.20</td>
-<td>105.63</td>
-<td>13542.94</td>
-<td>4833.55</td>
-<td>100</td>
-<td>20.36</td>
-<td>29402.00</td>
-<td>26607.92</td>
-</tr>
-<tr>
-<td>Intel 8563C + H20</td>
-<td>3.17</td>
-<td>481.50</td>
-<td>105.13</td>
-<td>14179.97</td>
-<td>5608.80</td>
-<td>100</td>
-<td>19.35</td>
-<td>35454.00</td>
-<td>32512.19</td>
-</tr>
-<tr>
-<td rowspan="2">PP_StructureV3-full</td>
-<td>Intel 8350C + A100</td>
-<td>8.92</td>
-<td>697.30</td>
-<td>102.88</td>
-<td>13777.07</td>
-<td>4573.65</td>
-<td>100</td>
-<td>18.39</td>
-<td>38776.00</td>
-<td>37554.09</td>
-</tr>
-<tr>
-<td>Intel 6271C + V100</td>
-<td>13.12</td>
-<td>437.40</td>
-<td>102.36</td>
-<td>13974.00</td>
-<td>4484.00</td>
-<td>100</td>
-<td>17.50</td>
-<td>29878.00</td>
-<td>28733.59</td>
-</tr>
-<tr>
-<td rowspan="5">PP_StructureV3-seal</td>
-<td>Intel 8350C + A100</td>
-<td>1.39</td>
-<td>747.50</td>
-<td>112.55</td>
-<td>5788.79</td>
-<td>3742.03</td>
-<td>100</td>
-<td>33.81</td>
-<td>38966.00</td>
-<td>35832.44</td>
-</tr>
-<tr>
-<td>Intel 6271C + V100</td>
-<td>2.44</td>
-<td>630.10</td>
-<td>110.18</td>
-<td>6343.39</td>
-<td>3725.98</td>
-<td>100</td>
-<td>42.23</td>
-<td>28078.00</td>
-<td>25834.70</td>
-</tr>
-<tr>
-<td>Intel 8563C + H20</td>
-<td>1.40</td>
-<td>792.20</td>
-<td>113.63</td>
-<td>6673.60</td>
-<td>4417.34</td>
-<td>100</td>
-<td>46.33</td>
-<td>35530.00</td>
-<td>32516.87</td>
-</tr>
-<tr>
-<td>Intel 8350C + A10</td>
-<td>1.75</td>
-<td>422.40</td>
-<td>106.08</td>
-<td>6068.87</td>
-<td>3973.49</td>
-<td>100</td>
-<td>50.12</td>
-<td>19630.00</td>
-<td>18374.37</td>
-</tr>
-<tr>
-<td>Intel 6271C + T4</td>
-<td>3.76</td>
-<td>400.30</td>
-<td>105.10</td>
-<td>6296.28</td>
-<td>3651.42</td>
-<td>100</td>
-<td>72.57</td>
-<td>14304.00</td>
-<td>13268.36</td>
-</tr>
-<tr>
-<td rowspan="4">PP_StructureV3-chart</td>
-<td>Intel 8350C + A100</td>
-<td>7.70</td>
-<td>746.80</td>
-<td>102.69</td>
-<td>6355.58</td>
-<td>4006.48</td>
-<td>100</td>
-<td>22.38</td>
-<td>37380.00</td>
-<td>36730.73</td>
-</tr>
-<tr>
-<td>Intel 6271C + V100</td>
-<td>10.58</td>
-<td>599.20</td>
-<td>102.51</td>
-<td>5754.14</td>
-<td>3333.78</td>
-<td>100</td>
-<td>21.99</td>
-<td>26820.00</td>
-<td>26253.70</td>
-</tr>
-<tr>
-<td>Intel 8350C + A10</td>
-<td>8.03</td>
-<td>413.30</td>
-<td>101.31</td>
-<td>6473.29</td>
-<td>3689.84</td>
-<td>100</td>
-<td>26.19</td>
-<td>18540.00</td>
-<td>18494.69</td>
-</tr>
-<tr>
-<td>Intel 6271C + T4</td>
-<td>11.69</td>
-<td>460.90</td>
-<td>101.85</td>
-<td>6503.12</td>
-<td>3524.06</td>
-<td>100</td>
-<td>46.81</td>
-<td>13966.00</td>
-<td>12481.94</td>
-</tr>
-<tr>
-<td rowspan="5">PP_StructureV3-notable</td>
-<td>Intel 8350C + A100</td>
-<td>1.24</td>
-<td>738.30</td>
-<td>110.45</td>
-<td>5638.16</td>
-<td>3278.30</td>
-<td>100</td>
-<td>35.32</td>
-<td>30320.00</td>
-<td>27026.17</td>
-</tr>
-<tr>
-<td>Intel 6271C + V100</td>
-<td>2.24</td>
-<td>452.40</td>
-<td>107.79</td>
-<td>5579.15</td>
-<td>3635.95</td>
-<td>100</td>
-<td>43.00</td>
-<td>23098.00</td>
-<td>20684.43</td>
-</tr>
-<tr>
-<td>Intel 8563C + H20</td>
-<td>1.18</td>
-<td>989.00</td>
-<td>107.71</td>
-<td>6041.76</td>
-<td>4024.76</td>
-<td>100</td>
-<td>50.67</td>
-<td>33780.00</td>
-<td>29733.15</td>
-</tr>
-<tr>
-<td>Intel 8350C + A10</td>
-<td>1.58</td>
-<td>225.00</td>
-<td>102.56</td>
-<td>5518.10</td>
-<td>3333.08</td>
-<td>100</td>
-<td>49.90</td>
-<td>21532.00</td>
-<td>18567.99</td>
-</tr>
-<tr>
-<td>Intel 6271C + T4</td>
-<td>3.40</td>
-<td>413.30</td>
-<td>103.58</td>
-<td>5874.88</td>
-<td>3662.49</td>
-<td>100</td>
-<td>76.82</td>
-<td>13764.00</td>
-<td>11890.62</td>
-</tr>
-<tr>
-<td rowspan="7">PP_StructureV3-noformula</td>
-<td>Intel 6271C</td>
-<td>7.85</td>
-<td>1172.50</td>
-<td>964.70</td>
-<td>17739.00</td>
-<td>11101.02</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>Intel 8350C</td>
-<td>8.83</td>
-<td>1053.50</td>
-<td>970.64</td>
-<td>15463.48</td>
-<td>9408.19</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>Intel 8350C + A100</td>
-<td>0.84</td>
-<td>788.60</td>
-<td>124.25</td>
-<td>6246.39</td>
-<td>3674.32</td>
-<td>100</td>
-<td>30.57</td>
-<td>40084.00</td>
-<td>37358.45</td>
-</tr>
-<tr>
-<td>Intel 6271C + V100</td>
-<td>1.42</td>
-<td>606.20</td>
-<td>115.53</td>
-<td>7015.57</td>
-<td>3707.03</td>
-<td>100</td>
-<td>35.63</td>
-<td>29540.00</td>
-<td>27620.28</td>
-</tr>
-<tr>
-<td>Intel 8563C + H20</td>
-<td>0.87</td>
-<td>644.10</td>
-<td>119.23</td>
-<td>6895.76</td>
-<td>4222.85</td>
-<td>100</td>
-<td>50.00</td>
-<td>36878.00</td>
-<td>34104.59</td>
-</tr>
-<tr>
-<td>Intel 8350C + A10</td>
-<td>1.03</td>
-<td>377.50</td>
-<td>106.87</td>
-<td>5819.88</td>
-<td>3830.19</td>
-<td>100</td>
-<td>42.87</td>
-<td>19340.00</td>
-<td>17550.94</td>
-</tr>
-<tr>
-<td>Intel 6271C + T4</td>
-<td>2.02</td>
-<td>430.20</td>
-<td>109.21</td>
-<td>6600.62</td>
-<td>3824.18</td>
-<td>100</td>
-<td>65.75</td>
-<td>14332.00</td>
-<td>12712.18</td>
-</tr>
-<tr>
-<td rowspan="9">PP_StructureV3-lightweight</td>
-<td>Intel 6271C</td>
-<td>4.36</td>
-<td>1189.70</td>
-<td>995.78</td>
-<td>14000.50</td>
-<td>9374.97</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>Intel 8350C</td>
-<td>3.74</td>
-<td>1049.60</td>
-<td>967.77</td>
-<td>12960.96</td>
-<td>7644.25</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>Hygon 7490 + P800</td>
-<td>0.86</td>
-<td>572.20</td>
-<td>120.84</td>
-<td>8290.49</td>
-<td>3569.44</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>Intel 8350C + A100</td>
-<td>0.61</td>
-<td>823.40</td>
-<td>126.25</td>
-<td>9258.22</td>
-<td>3776.63</td>
-<td>52</td>
-<td>18.95</td>
-<td>7456.00</td>
-<td>7131.95</td>
-</tr>
-<tr>
-<td>Intel 6271C + V100</td>
-<td>1.07</td>
-<td>686.80</td>
-<td>116.70</td>
-<td>9381.75</td>
-<td>4126.28</td>
-<td>58</td>
-<td>22.92</td>
-<td>8450.00</td>
-<td>8083.30</td>
-</tr>
-<tr>
-<td>Intel 8563C + H20</td>
-<td>0.46</td>
-<td>999.00</td>
-<td>122.21</td>
-<td>9734.78</td>
-<td>4516.40</td>
-<td>61</td>
-<td>24.41</td>
-<td>7524.00</td>
-<td>7167.52</td>
-</tr>
-<tr>
-<td>Intel 8350C + A10</td>
-<td>0.70</td>
-<td>355.40</td>
-<td>111.51</td>
-<td>9415.45</td>
-<td>4094.06</td>
-<td>89</td>
-<td>30.85</td>
-<td>7248.00</td>
-<td>6927.58</td>
-</tr>
-<tr>
-<td>M4</td>
-<td>12.22</td>
-<td>223.60</td>
-<td>107.35</td>
-<td>9531.22</td>
-<td>7884.61</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-<td>N/A</td>
-</tr>
-<tr>
-<td>Intel 6271C + T4</td>
-<td>1.13</td>
-<td>461.40</td>
-<td>112.16</td>
-<td>7923.09</td>
-<td>3837.31</td>
-<td>85</td>
-<td>41.67</td>
-<td>8218.00</td>
-<td>7902.04</td>
-</tr>
-</table>
-
-
-<table border="1">
-<tr><th>Pipeline configuration</th><th>description</th></tr>
-<tr>
-<td>PP_StructureV3-default</td>
-<td>Default configuration</td>
-</tr>
-<tr>
-<td>PP_StructureV3-pp</td>
-<td>Based on the default configuration, document image preprocessing is enabled</td>
-</tr>
-<tr>
-<td>PP_StructureV3-full</td>
-<td>Based on the default configuration, document image preprocessing and chart parsing are enabled</td>
-</tr>
-<tr>
-<td>PP_StructureV3-seal</td>
-<td>Based on the default configuration, seal text recognition is enabled</td>
-</tr>
-<tr>
-<td>PP_StructureV3-chart</td>
-<td>Based on the default configuration, chart parsing is enabled</td>
-</tr>
-<tr>
-<td>PP_StructureV3-notable</td>
-<td>Based on the default configuration, table recognition is disabled</td>
-</tr>
-<tr>
-<td>PP_StructureV3-noformula</td>
-<td>Based on the default configuration, formula recognition is disabled</td>
-</tr>
-<tr>
-<td>PP_StructureV3-lightweight</td>
-<td>Based on the default configuration, all task models are replaced with lightweight versions</td>
-</tr>
-</table>
-</details>
 
 <ul>
-<li>Test environment:<ul>
-<li>PaddlePaddle 3.1.0、CUDA 11.8、cuDNN 8.9</li>
-<li>PaddleX @ develop (f1eb28e23cfa54ce3e9234d2e61fcb87c93cf407)</li>
-<li>Docker image: ccr-2vdh3abv-pub.cnc.bj.baidubce.com/paddlepaddle/paddle:3.1.0-gpu-cuda11.8-cudnn8.9</li>
+<li>Use the model's <code>predict()</code> method for inference. This returns a list of results. The module also offers a <code>predict_iter()</code> method, which behaves identically in terms of inputs and outputs but returns a generator—ideal for large datasets or memory-sensitive scenarios. Choose based on your needs.</li>
 </ul>
-</li>
-<li>Test data:<ul>
-<li>Test data containing 280 images including tables, seals, formulas, and charts.</li>
-</ul>
-</li>
-<li>Test strategy:<ul>
-<li>Warm up with 20 samples, then repeat the full dataset once for performance testing.</li>
-</ul>
-</li>
-<li>Note:<ul>
-<li>Since we did not collect device memory data for NPU and XPU, the corresponding entries in the table are marked as N/A.</li>
-</ul>
-</li>
-</ul>
-<h1 id="pp-structurev3-demo">PP-StructureV3 Demo<a class="headerlink" href="#pp-structurev3-demo" title="Permanent link">&para;</a></h1>
-<div align="center">
-<img src="https://raw.githubusercontent.com/cuicheng01/PaddleX_doc_images/refs/heads/main/images/paddleocr/PP-StructureV3/algorithm_ppstructurev3_demo.png" width="600"/>
-</div>
+<p><code>predict()</code> method parameters:</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Description</th>
+<th>Type</th>
+<th>Default</th>
+</tr>
+</thead>
+<tr>
+<td><code>input</code></td>
+<td>Input data (required). Input formats vary by model.<br/>
+For PP-Chart2Table: <code>{'image': image_path}</code>
+</td>
+<td><code>dict</code></td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><code>batch_size</code></td>
+<td>Batch size. Any positive integer.</td>
+<td><code>int</code></td>
+<td>1</td>
+</tr>
+</table>
 
-<p><a href="https://paddle-model-ecology.bj.bcebos.com/paddlex%2FPaddleX3.0%2Fdoc_images%2FPP-StructureV3%2Falgorithm_ppstructurev3_demo.pdf">More Demos</a></p>
-<h1 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h1>
-<ol>
-<li>What is the default configuration? How to get higher accuracy, faster speed, or smaller GPU memory?</li>
-</ol>
-<p>When using mobile OCR models + PP-FormulaNet_plus-M, and max length of text detection set to 1200, if set use_chart_recognition to False and dont not load the chart recognition model, the GPU memory would be reduced. </p>
-<p>On the V100, the peak and average GPU memory would be reduced from 8776.0 MB and 8680.8 MB to 6118.0 MB and 6016.7 MB, respectively; On the A100, the peak and average GPU memory would be reduced from 11716.0 MB and 11453.9 MB to 9850.0 MB and 9593.5 MB, respectively.</p>
-<p>You can using multi-gpus by setting <code>device</code> to <code>gpu:&lt;no.&gt;,&lt;no.&gt;</code>, such as <code>gpu:0,1,2,3</code>. And about multi-process parallel inference, you can refer: <a href="https://github.com/PaddlePaddle/PaddleX/blob/develop/docs/pipeline_usage/instructions/parallel_inference.en.md#example-of-multi-process-parallel-inference">Multi-Process Parallel Inference</a>.</p>
-<ol>
-<li>About serving deployment</li>
-</ol>
-<p>(1) Can the service handle requests concurrently?</p>
-<p>For the basic serving deployment solution, the service processes only one request at a time. This plan is mainly used for rapid verification, to establish the development chain, or for scenarios where concurrent requests are not required.</p>
-<p>For high-stability serving deployment solution, the service process only one request at a time by default, but you can refer to the related docs to adjust achieve scaling.</p>
-<p>（2）How to reduce latency and improve throughput?</p>
-<p>Use the High-performance inference plugin, and deploy multi instances.</p>
+<ul>
+<li>Prediction results are returned as <code>Result</code> objects for each sample, with support for printing and saving to JSON:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Description</th>
+<th>Parameter</th>
+<th>Type</th>
+<th>Explanation</th>
+<th>Default</th>
+</tr>
+</thead>
+<tr>
+<td rowspan = "3"><code>print()</code></td>
+<td rowspan = "3">Print results to terminal</td>
+<td><code>format_json</code></td>
+<td><code>bool</code></td>
+<td>Format output using JSON indentation</td>
+<td><code>True</code></td>
+</tr>
+<tr>
+<td><code>indent</code></td>
+<td><code>int</code></td>
+<td>Indentation level for pretty-printed JSON. Only works when <code>format_json=True</code></td>
+<td>4</td>
+</tr>
+<tr>
+<td><code>ensure_ascii</code></td>
+<td><code>bool</code></td>
+<td>Whether to escape non-ASCII characters to Unicode. If <code>False</code>, keeps characters as-is.</td>
+<td><code>False</code></td>
+</tr>
+<tr>
+<td rowspan = "3"><code>save_to_json()</code></td>
+<td rowspan = "3">Save results to JSON file</td>
+<td><code>save_path</code></td>
+<td><code>str</code></td>
+<td>File path to save. If a directory, file will use input name as filename.</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td><code>indent</code></td>
+<td><code>int</code></td>
+<td>Same as in `print()`</td>
+<td>4</td>
+</tr>
+<tr>
+<td><code>ensure_ascii</code></td>
+<td><code>bool</code></td>
+<td>Same as in `print()`</td>
+<td><code>False</code></td>
+</tr>
+</table>
+
+<ul>
+<li>You can also access the result via properties:</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Property</th>
+<th>Description</th>
+</tr>
+</thead>
+<tr>
+<td><code>json</code></td>
+<td>Returns the result in JSON format</td>
+</tr>
+</table>
+
+<h2 id="4-custom-development">4. Custom Development<a class="headerlink" href="#4-custom-development" title="Permanent link">&para;</a></h2>
+<p>Currently, this module supports inference only and does not yet support fine-tuning. Fine-tuning capabilities are planned for future releases.</p>
+<h2 id="5-faq">5. FAQ<a class="headerlink" href="#5-faq" title="Permanent link">&para;</a></h2>
 
 
 
@@ -4691,6 +3516,51 @@ You're not viewing the latest version.
 
 
 
+<h2 id="__comments">Comments</h2>
+<!-- Insert generated snippet here -->
+
+<script src="https://giscus.app/client.js" data-repo="PaddlePaddle/PaddleOCR"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkyNjIyOTYxMjI=" data-category="Q&A" data-category-id="DIC_kwDOD6JSOs4COrbO"
+    data-mapping="pathname" data-strict="0" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top"
+    data-theme="preferred_color_scheme" data-lang="en" data-loading="lazy" crossorigin="anonymous" async>
+</script>
+
+<!-- Synchronize Giscus theme with palette -->
+<script>
+    var giscus = document.querySelector("script[src*=giscus]")
+
+    // Set palette on initial load
+    var palette = __md_get("__palette")
+    if (palette && typeof palette.color === "object") {
+        var theme = palette.color.scheme === "slate"
+            ? "transparent_dark"
+            : "light"
+
+        // Instruct Giscus to set theme
+        giscus.setAttribute("data-theme", theme)
+    }
+
+    // Register event handlers after documented loaded
+    document.addEventListener("DOMContentLoaded", function () {
+        var ref = document.querySelector("[data-md-component=palette]")
+        ref.addEventListener("change", function () {
+            var palette = __md_get("__palette")
+            if (palette && typeof palette.color === "object") {
+                var theme = palette.color.scheme === "slate"
+                    ? "transparent_dark"
+                    : "light"
+
+                // Instruct Giscus to change theme
+                var frame = document.querySelector(".giscus-frame")
+                frame.contentWindow.postMessage(
+                    { giscus: { setConfig: { theme } } },
+                    "https://giscus.app"
+                )
+            }
+        })
+    })
+</script>
+
                 
               </article>
             </div>
@@ -4716,7 +3586,7 @@ You're not viewing the latest version.
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../pipeline_usage/PP-StructureV3.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Usage Tutorial">
+          <a href="text_recognition.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Text Recognition Module">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l137.3-137.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
@@ -4726,20 +3596,20 @@ You're not viewing the latest version.
                 Previous
               </span>
               <div class="md-ellipsis">
-                Usage Tutorial
+                Text Recognition Module
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../pipeline_usage/PP-ChatOCRv4.html" class="md-footer__link md-footer__link--next" aria-label="Next: Usage Tutorial">
+          <a href="../pipeline_usage/pipeline_overview.html" class="md-footer__link md-footer__link--next" aria-label="Next: Pipeline Overview">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Usage Tutorial
+                Pipeline Overview
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -4805,12 +3675,12 @@ You're not viewing the latest version.
     
     
       
-      <script id="__config" type="application/json">{"base": "../../../..", "features": ["announce.dismiss", "content.tooltips", "content.code.copy", "content.tabs.link", "content.footnote.tooltips", "content.action.edit", "content.action.view", "navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.footer", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.tooltips", "content.code.copy", "content.tabs.link", "content.footnote.tooltips", "content.action.edit", "content.action.view", "navigation.expand", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.footer", "navigation.indexes", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": {"provider": "mike"}}</script>
     
     
-      <script src="../../../../assets/javascripts/bundle.92b07e13.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.92b07e13.min.js"></script>
       
-        <script src="../../../../javascripts/katex.min.js"></script>
+        <script src="../../../javascripts/katex.min.js"></script>
       
         <script src="https://unpkg.com/katex@0/dist/katex.min.js"></script>
       
